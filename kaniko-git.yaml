@@ -8,7 +8,7 @@ spec:
   containers:
   - name: kaniko
     image: gcr.io/kaniko-project/executor:debug
-    args: ["--context=git://github.com/lakshmipriya30491/kaniko-demo",
+    args: ["--context=git://946ae8ad5e4b7f86b60d63672e41cadb9e99b035@github.com/lakshmipriya30491/kaniko-demo",
             "--destination=lakshmi4ibm/devops-toolkit:1.0.0"]
     volumeMounts:
       - name: kaniko-secret
